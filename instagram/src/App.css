@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+header {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: dotted lightgray;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +38,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search,
+button {
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+.search:hover {
+  background: rgb(245, 245, 245);
+}
+
+button {
+  width: 7rem;
+}
+
+button:hover {
+  height: 3rem;
+  width: 8rem;
 }

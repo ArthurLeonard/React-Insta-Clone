@@ -1,0 +1,18 @@
+.thumbnail {
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.post-container {
+  border: 0.5px solid gray;
+  width: 80%;
+}
+.post-container .input {
+  width: 99%;
+  height: 2.5rem;
+}
+
+.post-title {
+  display: flex;
+  justify-content: space-between;
+}
